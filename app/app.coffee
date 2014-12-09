@@ -12,4 +12,7 @@ App = Ember.Application.extend
 
 loadInitializers(App, config.modulePrefix)
 
+inflector = Ember.Inflector.inflector
+inflector.uncountable('search')
+
 `export default App`
